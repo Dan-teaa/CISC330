@@ -1,0 +1,51 @@
+Dante Piedalue
+CISC 330 - Internet & Web Programming
+
+Answers: 
+
+1. HTML is a markup language that describes the structure of pages. It uses a simple syntax consisting
+        of tags and attributes that allows us to create a block structure of the page content. 
+
+2. CSS is a styling language that follows cascading logic to apply styles to HTML elements. It basically provides color,
+    shape control, fonts, and many other options for customization. 
+
+3. The header is separated from the body of the page and immediatly indicates where you are (Fordham.edu), and it has main links 
+    that easily direct you to other parts of the website. The background sits behind two content blocks. The first is the main attraction,
+    an article about the top 5 things she learned about retail. This is clearly indicated by the picture, and the large style font for the 
+    title of the article. It also provides a link, encouraging the user to click further in. THe news content block is smaller, with smaller photos -- 
+    ultimately drawing less attention. 
+
+    Desgin wise, the background goes all the way up to the header, and the whole page has a boarder around the side and bottom. 
+    The very top of the next content block is showing, inviting the user to scroll down. This is a completely separate block, with a new header (Maybe h2?).
+    This section also has links that direct the user to the websites/pages for other campus'.
+
+    The calendar section is cool because it allows the user to scroll sideways, cronologically, to see upcoming events. This is 
+    intuitive and is kept to a relativley small block. 
+
+    The footer has more niche links, and a clear logo/indication that it's Fordham.edu. It also has links to social media like 
+    facebook, instagram, twitter, etc...
+
+4. An HTML element is content that sits between two tags. This allows it to be identified and selected in CSS. 
+    A tag is an actual syntax tool that indicates the type of content that rests between it's opening and closing tag. 
+    For example, <p> These tags indicate that this sentence is a paragraph element. </p>  
+    An Attribute is an additional piece of information that is put inside a tag to give the tag special instructions. 
+    You can use attributes to make a section identifiable so it can later be selected in css, or you can add an attribute that points 
+    to another link or folder. This allows you to give special instruction to a specific element. 
+
+5.  The first is a selector, which indicates what html element you wish to edit. The second is declarations, which are the 
+    specific instructions of the CSS rule. 
+
+6. My first thought was to google the definition of cascade, which helps visualize it. CSS cascades in that it follows the order of CSS 
+    rules in the sylesheet. If one rule is placed below another, both for the same element, the latter rule will be enacted. This helps us 
+    also understand why specificity is important. While the rules follow the order they are written in the style sheet, more specific selectors
+    will override the order flow and allow the specific element to be edited while not effect the rest of the style around it. When writing in HTML, it's 
+    important to think about this specificity to make CSS styling easier. For example, knowing that ID is more specific than Class, and when to apply them
+    ppropriately.
+
+7. Steps: Back to project-1 -> into images -> select pinecone.jpg
+    ../images/pinecone.jpg
+    HTML File:
+    <img src="../images/pinecone.jpg>
+
+8. I think the default behavior is to add the data to the URL. The correct way to handle it is to include an action=" " attrubute to the <form> tag,
+    indicating where the data should be sent. 

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JP Realestate </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="jpRealestate.css" type="text/css" rel="stylesheet">
+        <!-- Google Font (Libre Bodoni) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Pinyon+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+
+    <!--Nav Bar from Bootstrap -->
+    <nav class="navbar navbar-expand-lg "> 
+        <a class="navbar-brand" href="#">Piedmont Realty</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Agents
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="search-bar1" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn1" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+    <!-- End of Nav Bar -->
+    
+    <div class="opener">
+        <div class="box">
+            <h1>Piedmont Realty Group</h1>
+            <!--<h3>The Community We Serve</h3>-->
+            <p>The Piedmont brand stands taller than ever in its original markets of New York City and the Hamptons. And the reach of our good name is growing fast, thanks to a dream team of affiliates serving extraordinary urban, suburban, and resort destinations across the state and around the country.</p>
+            <form>
+              <button class="LRNmore">Learn More</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="section2">
+        <div class="folder">Find your<span class="perfect"> Perfect</span> Home</div>
+        <div class="address-search">
+            <form>
+                <select class="BSRselect">
+                    <option value="buy">Buy</option>
+                    <option value="sell">Rent</option>
+                    <option value="rent">Sell</option>
+                </select>
+                <input class="search-bar " type="search" placeholder="Search by address or area">
+                <button class="btn" type="submit">Search</button>
+            </form>
+        </div>
+
+        <!-- PROP BOX // This flex box is to display the listings-->
+        <div class="prop-box">
+          <h3 class="propertiesHeader">Featured Properties</h3>
+          <div class="propertiesFlex"> <!-- PROPERTY FLEX QUESTION-->
+            <div class="Property">
+              <div class="card">
+                <img src="images/card1.jpg">
+              </div>
+              <div class="card-info">
+                <div class="card-address">344 Greenwich Ave.<br>New York, NY</div>
+                <div class="price">$17,500,000</div>
+              </div>
+            </div>
+            <div class="Property">
+              <div class="card">
+                <img src="images/card2.jpg">
+              </div>
+              <div class="card-info">
+                <div class="card-address">17730 Wild Goose Ln.<br>New York, NY</div>
+                <div class="price">$32,000,000</div>
+              </div>
+            </div>
+            <div class="Property">
+              <div class="card">
+                <img src="images/card3.jpg">
+              </div>
+              <div class="card-info">
+                <div class="card-address">233 West 56th Street<br>New York, NY</div>
+                <div class="price">$14,000,000</div>
+              </div>
+            </div>
+            <div class="Property">
+              <div class="card">
+                <img src="images/card4.jpg">
+              </div>
+              <div class="card-info">
+                <div class="card-address">335 Main Basin Way <br>Queens, NY </div>
+                <div class="price">$9,750,000</div>
+              </div>
+            </div>
+            <div class="Property">
+              <div class="card">
+                <img src="images/card5.jpeg">
+              </div>
+              <div class="card-info">
+                <div class="card-address">790 West 70th Street<br>New York, NY</div>
+                <div class="price">$23,200,000</div>
+              </div>
+            </div>
+            <div class="Property">
+              <div class="card">
+                <img src="images/card7.jpeg">
+              </div>
+              <div class="card-info">
+                <div class="card-address">632 Leonard Street<br> New York, NY</div>
+                <div class="price">$12,325,000</div>
+              </div>
+            </div>
+            <div class="Property">
+              <div class="card">
+                <img src="images/card6.jpg">
+              </div>
+              <div class="card-info">
+                <div class="card-address">One Flatbush Ave.<br>Brookyln, NY</div>
+                <div class="price">$6,400,000</div>
+              </div>
+            </div>
+            <div class="Property">
+              <div class="card">
+                <img src="images/card8.jpg">
+              </div>
+              <div class="card-info">
+                <div class="card-address">455 West 68th Street<br>New York, NY</div>
+                <div class="price">$17,800,000</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    
+    </div>
+
+
+    </body>
+
+</html>

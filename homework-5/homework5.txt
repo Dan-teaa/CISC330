@@ -1,0 +1,48 @@
+1. HTTP -> hypertext transfer protocol, and it is used to send data over the web. Its 
+protocol allows servers and browsers to send info back and forth using requests. There are 
+several types of request methods:
+	
+	Get -> retrieve data from the server
+	Post -> sends data to the server, which then needs to be processed
+	Put -> Used to update a resource.
+	Patch -> Used to partially update a resource
+	Delete -> used to delete a resource on the server side
+
+2. API -> Application Programming Interface, which is used to allow programs/applications to 
+    communicate. API’s are designed to allow developers access to some resource, and request 
+    info/ data from it. 
+
+    JSON -> JavaScript Object Notation is a commonly used format for sending data across the
+    web. It is essentially a javascript class that contains info. 
+
+
+3. AJAX -> Asynchronous JavaScript and XML. AJAX is used to send and retrieve data asynchronously,
+    meaning it can edit, send, and receive data without reloading the whole webpage. 
+
+    Asynchronous code refers to code that is run in parallel with the main program, 
+    i.e. at the same time. AJAX allows developers to continue displaying the main program to users, 
+    which simultaneously performs tasks on the backend that update what the user is seeing. 
+
+4. REST -> Representational State Transfer, which is an architectural style of organizing 
+    code so that requests act upon resources in a standardized way. Resources refer to objects
+    in our code that users interact with. 
+	
+	a. retrieve multiple posts: .get(‘/posts’)
+    b. retrieve a single post: .get(‘/posts/postID’)
+    c. save a post: .post(‘/posts’)
+    d. update a post: .put(‘/posts/postID’)
+
+5. When a script is called, it goes through two phases, prepare and execute. 
+    Hoisting refers to a step in the prepare phase where variables or functions are 
+    hoisted to the top of the scope, even if they are not initialized before they are 
+    declared. Typically, we need to be mindful of initializing variables and functions 
+    before they are called. We should be mindful as well that each execution phase makes 
+    its own variable and function objects for it’s scope. This can sometimes cause issues. 
+
+    Closures refers to the scope of the current execution context’s variables and objects,
+     plus the variables for each parent execution context. This allows functions to remember
+      the variables and functions that are declared in its outer scope. (look up, but never down)
+
+
+
+

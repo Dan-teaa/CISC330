@@ -1,0 +1,23 @@
+1. Interpreted Language
+2. Dynamic 
+3. functional style
+4. this? or let?  
+5. Scope
+6. const -> "constant"
+7. callback functions
+8. objects
+
+
+
+
+
+Notes to self: 
+(dont read, these are notes to myself!!  >:|  )
+
+-> need to deepen understanding consol.log() and how it's used. 
+-> PhizBuzz? interview question 
+-> Link in Chapter2.js to build in functions/ methods 
+-> Know the difference between /=== and /==
+
+-> Review Template Literals 
+-> 

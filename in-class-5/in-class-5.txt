@@ -1,0 +1,6 @@
+1. Model, Access & Update
+2. Cross-site Scripting Attacks 
+3. Actions (or triggers?)
+4. AddEventListener()
+5. JQuery
+6. .val()

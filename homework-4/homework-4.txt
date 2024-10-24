@@ -1,0 +1,37 @@
+1. DOM -> Document Object Model
+    The DOM tree is a model of the page created by the browser. Each aspect of the webpage 
+    is turned into an object, represented by an individual node. By seperating the page into
+    different object, we are able to access and control/update differnt parts of the webpage 
+    without reloading the whole page. 
+
+2. XXS Attac -> Cross-site Scripting
+    XXS attacks are when bad actors put scripts into a webpage that can allow the hacker 
+    access to personal information about the user. XXS attacks can lead to access of the entire DOM, 
+    the websites cookies, and session tokens. From what I understand, it happens when there are 
+    oportunities for the user to send data to the server. 
+
+    To prevent attacks, we can create validation systems for user input, making sure they only
+    are able to use specific characters or lengths. Further, we can be cautious about where data is 
+    sent on the server side, ensuring that when that input is recieved it doesnt give access to other 
+    information. Another tool we have i sencodeURICompnent(), which encodes specific characters. 
+
+3. An event is an action made by the user that is recognized by the browser, and can then be linked 
+    to other actions written in JavaScript. We use event listeners to notify the browser that we are 
+    looking for a user interaction to trigger and event. 
+
+4. A DOM event listener allows us to notify the browser that we are looking for a user interaction that will trigger
+    something on the backend. This allows us to update/ edit specific sections of the page based on the users 
+    interaction with it. For parameters, we first must give it the type of event it's listening for, like a click, hover, submit, etc...
+    We can also list a function as a parameter, indicating that the function needs to be run when the event
+    is triggered. 
+
+5. JQuery is a JavaScript Library that allows us to use more intuitive code to perform desired actions. It's supposed to be simpler
+    than plain JavaScript, but I dont truly understand it yet to be honest. From what I understand it allows us to use elements and names
+    that are more closely linked to HTML and CSS, making the selection and updating process easier to follow. 
+
+    To load it into a page you can use a CDN link or download the files to your webpage folder. CDN seems
+    to be the most common, and easiest, method. One catch though, is we have to be sure Jquery is loaded prior to
+    any scripts being run. 
+
+    Also, upon further reading I see that JQuery also helps mitigate cross-browser compatibility to ensure sites run somoothly 
+    no matter where they are accessed from. 

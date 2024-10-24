@@ -1,0 +1,39 @@
+1. PHP stands for hypertext Processor. It is a commonly used language for server-side development. 
+    It is used to process data and interactions for front end development. IT can interact with databases 
+    and handle user input/ submissions.
+
+    Servers are where all the data/files/info for the website reside. PHP allows the backend to perform 
+    functions that the user does not need access to. It then sends results from its execution back to the 
+    front end to be displayed for users.
+
+
+2. Both PHP and JS are scripting languages made to interact with HTML. They have similar syntax, and they 
+    are both used to perform actions that do not pertain to the user, and result in interactivity within the 
+    website. They are also designed to easily communicate with each other
+
+    They differ in a few ways too. PHP is only run on the server, while JS is executed in the browser. 
+    They also differ in the core functions they are used for. PHP is used for managing, saving, manipulating, 
+    deleting, etc… data and JS is typically oriented at client-side interactions. 
+
+
+
+3. To be honest, I don't know why! 
+
+    I think a fair response would be because it’s an industry standard, used by many websites and companies. 
+    If I recall from the powerpoints, nearly 80% of all websites use php. 
+    I’m also assuming it’s a strong candidate because it’s typed similarly to JS, and it’s been designed to work 
+    well in the HTML, CSS, and JS ecosystem.
+
+4. Include and require are used to import another php file. The difference between the two is in error handling. 
+
+    Include -> if the file cannot be secured, the program will continue to run
+    Required -> if the file cannot be secured, the program will spit out an error. 
+
+        Part a -> if the file isn’t linked correctly, the program will notify you that the variable is undefined. Depending 
+        on whether it’s included or required, the program will tell you and then continue, or quit. 
+
+5. Echo -> this is used to print out text. (It’s kinda the same as print(‘Hello World’) or cout<<“Hello World!”). 
+    It can also be concatenated. 
+
+    Var_dump -> this prints out the actual variable information, including the name of the object, the key value pairs, 
+    array positions, string length, etc… 

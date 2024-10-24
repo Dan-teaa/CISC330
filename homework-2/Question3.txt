@@ -1,0 +1,20 @@
+#3
+
+I feel like the grid and Flexbox layouts are super versitile.
+In the Fordham Webpage I was able to make the basic structure of the body using a grid system, and then manage the content within the
+grid by turning the covered sections into flex boxes. It took me a while to realize how I can use a grid inside of a flexbox, or vice-versa
+-> all inside another box of some sort! 
+
+I think the flexbox is a bit more handy, and my brain has an easier time imagining all the elemnts inside the box and how they sit next to each other. 
+It also took me a while to get comfortable with the CSS tools for flexbox, but once you understand them you are able to manipluate boxes significantly. 
+I also see how developers build frameworks that speed up their projects. For example, if you use a common flexbox or grid setup in most of your designs, 
+you might as well save that code so it can later be applied to other projects. This is the idea behind bootstrap I think. 
+
+One fall back for flexboxes is that it's hard to get the box-items to line up abnormally, or not in a straight line. For example, in the Fordham Webpage, 
+the image is technically a flex-box-item, but it had to be margined and off-set vertically to align it evenly with the text. I'm sure there are easier
+ways to manage this, but I haven't figured it out yet.
+
+I feel like my understanding of flexboxes is really displayed in the Fordham Webpage Footer. The whole footer is a flexbox aligned horizontally, but the
+contents are also flexboxes, aligning the content vertically (Flex inside of flex).
+
+

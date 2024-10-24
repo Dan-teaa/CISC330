@@ -1,0 +1,40 @@
+Dante Piedalue 
+Homework 3
+Questions 1 - 5
+
+1. Javascript is an interpreted language in that each line of code is read and performed line by line. Compiled languages are rewritten into a format 
+    that a computer can process easier, giving more access to the computers hardware and fast performance times. Javascript is typically used for front-end 
+    dynamic websites, but can also be used to perform backend functions. 
+
+2. Dynamically typed languages means that data types are determined at runtime, while statically typed requires the program to know the datatype before 
+    being compiled. Javascript is a dynamically typed language, so far as you can declare a variable and fill it with any type. C++ is the opposite, where 
+    you must manage data types very strictly.
+
+    This also plays in with Strongly and Weakly typed languages. C++ is strongly typed, in that the data manipulation and storage has to be very specific. 
+    Javascript is weakly typed, meaning in some cases it will handle type conversions and memory allocation automatically. This allows for a bit more 
+    flexibility for the programmer. 
+
+3. All three of these are for declaring variables. 
+
+    Var -> the outdated way to declare variables. From what I understand, the issue with Var is linked to scope, and they can be changed too easily. 
+
+    Let -> the more recent technique, which allows you to strictly limit the scope of the variable. Note, let variables can be updated, but not re-declared. 
+
+    Const -> this is used to ensure that a variable won't change. It cannot be redeclared or changed, unless the const is an array or string, in which case they can be updated. 
+
+4. Anonymous Functions -> These are functions that are used without a name. Typically, they are used only once in a specific calculation for a block 
+    of code. In question #10 I use an anonymous function to create the cats.name + message. 
+
+    Higher-Order Functions -> These are functions that can use other functions as a parameter. So if a function needs information from another function, it can just call that function. 
+
+    Callback Functions -> These are the functions that are actually called inside higher-order functions. 
+
+    First Class Functions -> Are functions that have been assigned as a variable, and can be used as such. In this case, you can use the variable name anywhere you would use the function. 
+
+5. Objects are a type of data structure that allow us to create templates for common instances. I really like the example the book uses, where they have a Hotel Object. 
+    There are many instances of hotels in the world, so each hotel object has a variable for name, available rooms, price points, etc… Each object can be 
+    different, but they are still all hotels! 
+
+    Objects are more specifically just a collection of key value pairs, as where a single variable is just one key and one paired piece of data. 
+
+

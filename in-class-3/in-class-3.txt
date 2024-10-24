@@ -1,0 +1,13 @@
+Dante Piedalue
+CISC330, In Class 3
+
+Fill in the blank repsonses:
+1. Color
+2. Typography
+3. Object fit
+4. Position 
+5. Layouts
+6. One Dimensional
+7. Two Dimensional
+8. CSS Framework
+

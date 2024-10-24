@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NYC Weather App</title>
+        <style>
+           body {
+            background-color: grey;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+
+           .appContainer {
+            height: 200px;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: white;
+            margin-top: 200px;
+            padding-top: 50px;
+            text-align: center;
+           }
+
+           #display {
+            margin-top: 30px;
+            font-size: 30px;
+           }
+
+        </style>
+    </head>
+    <body>
+        <div class="appContainer">
+            <h1>NYC Temperature</h1>
+            <p id="display">Fetching weather</p>
+        </div>
+        <script>
+            // stole method from chapter10.js
+            // learned a bit more about async functions and await
+            async function getWeather() {
+                try {
+                    const url = 'https://api.open-meteo.com/v1/forecast?latitude=40.7128&longitude=-74.006&current_weather=true&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=America%2FNew_York&forecast_days=1';
+                    
+                    const APIresponse = await fetch(url); // await -> keeps program from moving on until the block is satisfied. 
+                    const weatherData = await APIresponse.json();
+                    
+                    const temperature = weatherData.current_weather.temperature;
+                    console.log(temperature);
+                    
+                    document.getElementById('display').textContent = temperature + ' °F';
+                } catch (error) {
+                    document.getElementById('display').textContent = 'Unable to load temperature data.';
+                    console.error('Error: Cannot fetch weather data', error);
+                }
+            }
+
+            //function call
+            getWeather();
+        </script>
+       
+    </body>
+</html>

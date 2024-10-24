@@ -1,0 +1,10 @@
+1. template
+2. visibility
+3. inheritance 
+4. namespaces 
+5. super globals
+6. function
+7. header()
+8. model view controller
+9. libraries 
+

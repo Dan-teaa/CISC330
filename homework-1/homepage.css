@@ -1,0 +1,51 @@
+/* Homepage */
+
+.header {
+    font-size: 60%;
+    color: darkblue;
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* LEFT OFF HERE FIGURING OUT THE BIG LETTERS */
+
+}
+
+.inc {
+    font-size: 15px;
+}
+
+.big {
+    font-size: 150%;
+}
+
+.address {
+    font-size: 5rm;
+}
+
+
+
+li>a {
+    color: purple;
+}
+
+#addInfo {
+    color: darkblue;
+    font-size: 10px;
+}
+
+table {
+    font-size: 15px;
+}
+
+
+/* Legal Page */
+#legalHeader{
+    text-align: center;
+    color: black;
+    line-height: 1em;
+}
+
+#geicoADD{
+    text-align: center;
+    font-size: 30%;
+}

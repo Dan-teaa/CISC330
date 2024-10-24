@@ -1,0 +1,11 @@
+Here are the answers to in class questions 2: 
+
+1. inline 
+2. relative 
+3. compression
+4. form 
+5. styling
+6. selectors 
+7. box
+8. equal
+9. padding

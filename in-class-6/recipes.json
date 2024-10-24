@@ -1,0 +1,19 @@
+{
+    "recipes": [
+        {
+            "title": "Crepes",
+            "description": "A french delight",
+            "id": 1
+        },
+        {
+            "title": "Croissant",
+            "description": "A buttery and flakey delight",
+            "id": 2
+        },
+        {
+            "title": "Baguette",
+            "description": "A long and firm bread",
+            "id": 3
+        }
+    ]
+}

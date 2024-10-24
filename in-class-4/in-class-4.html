@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Dante's Intro to JavaScript</title>
+        <script src="in-class-4.js"></script> 
+    </head>
+    <body>
+        <script>
+
+            /* Literal Notation pg. 104 in txtbook */ 
+            /* const firstObject = {
+                name: "Dante",
+                echo: function myFunction() = {
+                    console.log(this.name);
+                }
+            } */
+            
+            // for some reason if I name the function "myFunction," it stops the consol log from carrying out it's action. Why is this? 
+    
+            const firstObject = {
+                name: "Dante",
+                echo: function() {
+                    console.log(this.name);
+                }
+            };
+
+            
+
+
+            /* Call the first time */
+            firstObject.echo();
+
+            /* Update */
+            firstObject.name = "Piedalue";
+
+            /* Second Call */
+            firstObject.echo();
+
+
+        </script>
+
+    </body>
+</html>

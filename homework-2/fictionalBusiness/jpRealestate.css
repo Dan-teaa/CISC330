@@ -1,0 +1,398 @@
+
+/* Google Font (Libre Bodoni) */
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 400 to 700 */
+
+.libre-bodoni-<uniquifier> {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Google Font (Baskervville SC) */
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Google Font (Pinyon Script) */
+.pinyon-script-regular {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
+
+body {
+    background-color: #104547;
+}
+
+
+.navbar.navbar-expand-lg {
+    background-color: #104547;
+    height: 80px;
+}
+
+.navbar-brand {
+    font-family: "Baskervville SC", serif;
+    color: #CCDBDC; 
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke; 
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.nav-link {
+    font-family: "Baskervville SC", serif;
+    color: #CCDBDC;
+
+}
+
+#navbarSupportedContent {
+
+    margin-top: 30px;
+
+}
+
+/* Nav Bar Search */
+button.btn1 {
+    font-family: "Libre Bodoni", serif;
+    background-color: whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #104547;
+    height: 40px;
+    margin-left: 1px;
+    letter-spacing: 1.5px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+input.search-bar1 {
+    width: 200px;
+    height: 40px;
+    background-color: whitesmoke;
+    justify-content: center;
+    /*display: felx;*/
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+  
+}
+
+/* End of Nav Bar */
+
+.opener {
+    background-image: url('images/city.jpg');
+    background-size: cover;
+    background-position: relative;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: inset 0px 0px 20px 2px black;
+   
+}
+
+.box {
+    background-color: #CCDBDC;
+    border-radius: 10px;
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: #104547;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0px 0px 50px .25px black;
+}
+
+h1 {
+    font-family: "Baskervville SC", serif;
+    font-weight: bold;
+    border-bottom: solid;
+    border-width: 2px;
+    width: 400px;
+    margin: 10px auto 10px auto;
+    margin-top: 30px;
+}
+
+/*h3 {
+    font-family: "Libre Bodoni", serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-style: italic;
+    font-weight: bold;
+}*/
+
+p {
+    width: 450px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-family: "Baskervville SC", serif;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+.LRNmore {
+
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #104547;
+    background-color: whitesmoke;
+    
+
+}
+
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+    background-color: #104547;
+    color:#CCDBDC;
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    height: 1050px;
+
+    box-shadow: 0px -5px 30px 10px black;
+}
+.folder {
+    font-family: "Baskervville SC", serif;
+    color: #CCDBDC;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+
+    
+
+}
+
+.perfect {
+    font-family: "Pinyon Script", cursive;
+    text-transform: lowercase;
+    font-size: 60px;
+    word-spacing: 10px;
+    margin-right: 5px;
+
+}
+
+.address-search{
+    background-color: #CCDBDC;
+    width: 1000px;
+    height: 90px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    
+    box-shadow: 0px 5px 40px 1px black;
+    
+}
+
+select.BSRselect {
+    font-family: "Libre Bodoni", serif;
+    font-size: 20px;
+    width: 75px;
+    height: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #104547;
+    padding: 5px;
+    appearance: none; /* Removes default styling */
+    padding-left: 15px;
+    letter-spacing: 1.5px;
+    margin-right: 15px;
+    
+
+    
+    
+}
+
+input.search-bar {
+    width: 700px;
+    height: 50px;
+    background-color: whitesmoke;
+    justify-content: center;
+    /*display: felx;*/
+    border-radius: 10px;
+  
+}   
+
+input:placeholder-shown {
+    font-family: "Libre Bodoni", serif;
+    padding-left: 15px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+button.btn {
+    font-family: "Libre Bodoni", serif;
+    background-color: whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #104547;
+    height: 50px;
+    margin-left: 20px;
+    letter-spacing: 1.5px;
+}
+
+/* Featured Properties Section */
+.prop-box {
+    width: 1450px;
+    height: 800px;
+    background-color: #CCDBDC;
+    border-width: 2px;
+    border-top: solid;
+    border-radius: 10px;
+    margin-top: 30px;
+
+    box-shadow: 0px 5px 40px 1px black;
+
+    
+}
+
+.propertiesHeader{
+    font-family: "Baskervville SC", serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #104547;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+
+}
+
+/* PROPERTY FLEX QUESTION */
+.propertiesFlex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /*border-width: 1px;
+    border-style: solid;*/
+    width: 1400px;
+    margin: 10px auto 10px auto;
+    gap: 15px;
+    margin-top: 10px;
+    
+
+}
+
+@media screen and (min-width: 1000px) {
+    .propertiesFlex {
+        flex-direction: row;
+    }
+}
+
+.Property {
+    width: 330px;
+    height: 300px;
+    background-color: #CCDBDC;
+    /*border-width: 3px;
+    border-style: solid;
+    border-color: black;*/
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    margin: 10px auto 10px auto;
+
+}
+
+.card {
+    height: 220px;
+    width: 330px;
+    background-color: #CCDBDC;
+    /*border-top-right-radius: 10px;
+    border-top-left-radius: 10px;*/
+    border-radius: 10px;
+    
+}
+
+.card img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: fill; /* Maintain aspect ratio and cover the box */
+    object-position: center; /* Center the image within its box */
+    /*border-top-right-radius: 10px;
+    border-top-left-radius: 10px;*/
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    
+    
+    
+  
+  }
+
+
+.card-info{
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    color: #104547;
+    width: 300px;
+    height: 80px;
+    margin-top: -10px;
+  
+
+
+}
+  .card-address {
+    font-family: "Libre Bodoni", serif;
+    text-align: left;
+    margin-left: -5px;
+    font-size: 18px;
+    line-height: 25px;
+ 
+  
+  }
+
+  .price {
+    font-family: "Libre Bodoni", serif;
+    font-style: italic;
+    font-size: 20;
+    text-align: right;
+    margin-right: 0px;
+    margin-top: -50px;
+  }
+/*-------------------------------------------------------------------*/
+
+
+
+
+  
+  
+
+
+
+/* End of Properties Boxe's */
