@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>User View</title>
+
+         <!-- Styling -->
+        <style>
+            h1 {
+                text-align: center;
+                font-size: 50px;
+                border-bottom: 2px solid black;
+
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>Welcome to the User View</h1>
+        <div id="userContainer">
+            <!-- Container for user data -->
+        </div>
+
+
+        <!-- I have run into an issue here, I cannot get the server to find /users. I have treid so many things, I have no idea what's up. 
+            The server is able to locate the index.php file, and load the webpage.html, but not the /users endpoint. -->
+        <script>
+            fetch('/users') 
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    
+                })
+                .catch(error => console.error('Error fetching data:', error));
+               
+                // I was going to add JS to create an element for each user to display it's data in a flex box (userContainer), but I'm giving up because I can;t figure out the server issue to test anything. 
+                // I got through most of problem 8, so hopefully I can get pertial credit
+        </script>
+
+
+</html>

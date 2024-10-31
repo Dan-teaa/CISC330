@@ -1,0 +1,35 @@
+1. Classes are templates for creating an object. Classes include the properties and methods, which represent variables and functions respectively. 
+	
+    An object is an instance of a class. This means it uses the class to assign the variables specific data, and then methods allow functions to access that specific instance data. 
+
+    Object Oriented Programming is the use of classes and objects in the code design. OOP has several important characteristics that are used to manage data and design:
+    - Encapsulation: grouping data and methods into a single object. 
+    - Inheritance: The use of child classes that can inherit functionality from the parent class. 
+    - Polymorphism: using functions with the same name but different functionality depending on the context.
+    - Abstraction: putting complex processes into objects so they can be used without all the details of functionality. 
+
+2. This is a little confusing to me, but from what I understand you can use an abstract class to be used as a template for another class. 
+
+    This means that you can put functionality in a parent class, and then implement them into child functions with different functionality. The lecture code uses an abstract car class to echo “vroom.” Another child class, Mustang, requires all the functionality of a car class, but needs its own characteristics and methods too. This allows it to inherit the same functionality from the car class, and modify for its specific instance. 
+
+3. Superglobals are predefined variables that are automatically given global scope. This allows you to declare them, and then use them anywhere, no matter their encapsulation. I noticed in a forum from the PHP website that you can’t use superglobals as function parameters or it causes a fatal error, just interesting to note! 
+
+    Some examples are: 
+    $GLOBALS
+    $_SERVER
+    $_GET
+    &_POST
+    $_FILES
+    Etc…
+    As the names imply, they hold different types of data that can be useful across different parts of a project. PHP interpreters create these variables each time a page is requested. And an example would be $_Sever[‘Request_Method’], which will return our request method. 
+
+4. Namespaces allow PHP interpreters to understand the differences between two classes, functions, or constants with the same name. Namespaces declare the file path to specific classes or methods. 
+
+    To use them you must first define the namespace in the file you wish to include. Then, you can reference the desired class in two ways:
+    Type out the full file path and assign it to a variable
+    Or, you can type the “use” keyword followed by file path in an outer scope, allowing you to use its content throughout.  
+
+5. MVC is an architectural design pattern that separates applications into 3 components:
+    Model -> Refers to the data-related logic that the user will interact with. It is where all out data is modeled, allowing it to be used by the controller. 
+    View -> This layer manages all aspects relating to the user interface. It doesn't interact with the model at all, only the controller. Our Views consist of HTML, CSS, and JS. 
+    Controller -> This layer facilitates interactions between view and controller. This allows it to tell the model how to process data, and interact with the view to render a final output. 
