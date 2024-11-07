@@ -1,0 +1,23 @@
+1. www.example.com?name=Dante$favoritecolor=green
+
+2. Escape Characters are symbols that indicate the following character is not to be recognized as a keyword for the language. We see this across many languages, for example in PHP if we want to use a quote inside a string, we must use \’.
+    From slides: &lt; , &gt
+
+
+3. HTTP Statuses
+    200 -> (Success/OK) The action/ page requested was completed successfully
+    400 -> (Bad Request) When a client requests a page and the server isn’t able to understand
+    401 -> (Unauthorized Error) The HTTP status code requires user authentication. 
+    403 -> (Forbidden) The server understands the request, but still refuses to fulfill it. 
+    404 -> (Not Found) When a URL is requested but not found
+    500 -> (Internal Server Error) The server runs into an issue. 
+
+4. Data validation is important for several reasons:
+    Accuracy -> Ensuring user data is entered correctly, and alternatively stored/ managed correctly 
+    Safety -> Allows us to protect from malicious script inputs/ other schemes. 
+
+5.  Cookies -> Tell the browser to store data about the user in a text file called a cookie. Each time the browser requests another page from that domain, the browser sends the data in the cookie back to the server. Servers can access cookies using the $_COOKIE superglobal
+    Session -> Store information about a user and their preferences on the server. They only store the data for the duration of a single visit to the site, but can be used across pages. 
+
+
+
