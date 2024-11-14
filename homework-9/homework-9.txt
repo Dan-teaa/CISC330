@@ -1,0 +1,35 @@
+1. SQL stands for Structured Query Language. It is used to communicate with databases. For example, requesting data, 
+    adding new data, editing existing data, and deleting data. MySQL is a relational database database program that uses SQL queries. 
+    (The flavor). 
+
+    Relational databases refers to a structure that allows us to define and access data in relation to another piece of data in the database. 
+    These are called relationships. 
+
+2. Normalization organizes the columns and tables of databases. This includes using databases as efficiently as possible, making it easier to manage and 
+    avoid duplication. A good example is the databases in my final project. I can combine Admin, Active Members, and Mailing list to create one database, 
+    giving each person different attributes/ properties. 
+
+3. Primary keys are used to make sure that each row (record) has a unique identifier. For example, each row having 1, 2, 3…
+	
+    Foreign keys are used to link a database to another primary key. This means a database can be linked to an individual record in another database. 
+
+4. One-to-one – For every record in the primary table, there is one and only one record in a foreign table
+
+    One-to-many – for every record in the primary table, there are more than one related records in the foreign table. 
+
+    Many-to-many – for every record in the primary table, there are many related records in the foreign table, and for every record in the foreign table, there are many related records in the primary table. 
+
+    All this is used to create structure to our databases. The slides use the example of a faculty member: 
+
+    one faculty member -> one email 
+    One faculty member -> many classes
+    Many students -> many classes
+
+
+5. First, JOIN is a keyword that allows us to request data from more than one table. 
+    LEFT JOIN returns all records from the left table (table 1), and the matching records from the right table (table 2). 
+    INNER JOIN selects records that have matching values in both tables. 
+
+
+
+
